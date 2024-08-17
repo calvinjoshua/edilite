@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <style>
+        .contact-section {
+            background-color: #f8f8f8;
+            padding: 60px 0;
+            background-image: url("./part5.jpg");
+        }
+
+        .contact-section h4 {
+            color: #0038a7;
+            font-weight: bold;
+        }
+
+        .contact-section form {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-section .form-label {
+            font-weight: 500;
+            color: #333;
+        }
+
+        .contact-section .form-control {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            font-size: 1rem;
+        }
+
+        .contact-section .form-control:focus {
+            border-color: #0038a7;
+            box-shadow: 0 0 5px rgba(0, 56, 167, 0.5);
+        }
+
+        .contact-section .btn-primary {
+            background-color: #0038a7;
+            border: none;
+            padding: 12px 20px;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        .contact-section .btn-primary:hover {
+            background-color: #002b7a;
+        }
+
+        .custom-heading {
+            font-family: 'Maven Pro', sans-serif;
+            /* font-weight: 700; */
+            
+            /* background-color: #002266; */
+            /* border-radius: 20px; */
+            color: #002266;
+            /* padding: 10px 20px; */
+            /* display: inline-block; */
+            font-size: 50px;
+        }
+
+        .custom-subheading {
+            padding: 10px 20px;
+            background-color: #002266;
+            border-radius: 20px;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            /* font-weight: 400; */
+            /* font-size: 1.9rem; */
+            display: inline-block;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-light p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <img src="./mainLogo.png" alt="Logo">
+            </div>
+            <nav class="nav">
+                <a class="nav-link" href="#services">Services</a>
+                <a class="nav-link" href="#aboutUs">About Us</a>
+                <a class="nav-link" href="#contactUs">Contact Us</a>
+                <div id="google_translate_element"></div>
+            </nav>
+            
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center">
+                    <span class="custom-heading">Edilite</span>
+                    <span class="custom-subheading">Tech</span>
+                </h2>
+                <img src="./part1.png" class="img-fluid d-block mx-auto my-3" alt="Innovate Image">
+                <h4 class="text-center" style="font-family: 'Maven Pro', sans-serif;">Innovation is the heartbeat of progress. Let's build the future together.</h4>
+            </div>
+        </div>
+<hr>
+        <!-- Sections -->
+        <section class="my-5">
+            <div class="row">
+                <div class="col-md-6" style="line-height: 30px;">
+                    <h4>Want to Innovate Your Business?</h4>
+                    <p>We are a software consultancy dedicated to transforming your business through cutting-edge technology. Our innovative solutions drive efficiency, enhance productivity, and unlock new opportunities for growth. Let us help you stay ahead of the curve</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./part2.png" class="img-fluid" alt="Innovation Image">
+                </div>
+            </div>
+        </section>
+
+        <section class="my-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="part3.png" class="img-fluid" alt="Support Image">
+                </div>
+                <div class="col-md-6" style="line-height: 30px;">
+                    <h4>Need Support for Your Business?</h4>
+                    <p>We provide tailored solutions and innovative ideas to help your business operate efficiently. Our expertise ensures that your systems are optimized to meet high demands, enabling seamless growth and success.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-5" id="aboutUs">
+            <div class="row">
+                <div class="col-md-6" style="line-height: 30px;">
+                    <h4>About Us</h4>
+                    <p>We believe that technology is the key to innovation. Our experienced team specializes in building applications, managing IT infrastructure, and leveraging cutting-edge concepts to help businesses achieve their objectives. We are committed to delivering high-quality solutions that drive success and empower our clients to thrive in the digital age.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="./part4.png" class="img-fluid" alt="About Us Image">
+                </div>
+            </div>
+            <br></br>
+        </section>
+
+        <section class="my-5" id="services" style="background-color: #002266; color: aliceblue; padding: 40px 0;">
+            <div class="container">
+                <h2 class="text-center mb-4">Our Services</h2>
+                <br>
+                <div class="row">
+                    <div class="col-md-4 text-center mb-4">
+                        <h4>IT Strategy</h4>
+                        <hr class="light-hr">
+                        <p>We help you develop a robust IT strategy aligned with your business goals.</p>
+                    </div>
+                    <div class="col-md-4 text-center mb-4">
+                        <h4>Cloud Solutions</h4>
+                        <hr class="light-hr">
+                        <p>Leverage the power of the cloud with our expert cloud solutions.</p>
+                    </div>
+                    <div class="col-md-4 text-center mb-4">
+                        <h4>Web 3.0</h4>
+                        <hr class="light-hr">
+                        <p>Planning to engage users with Web3? Our experts are here for you.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+<hr>
+        <section class="my-5">
+            <div class="row">
+                <div class="col-12">
+                    <h4 style="text-align: center;" style="font-family: 'Maven Pro', sans-serif;">Ready for a Free Consultation? Let's Get Started!</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contactUs" class="my-5 contact-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-6">
+                        <h4 class="text-center mb-4">Contact Us</h4>
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <label for="orgName" class="form-label">Organization Name</label>
+                                <input type="text" class="form-control" id="orgName" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="orgOrigin" class="form-label">Organization Origin</label>
+                                <input type="text" class="form-control" id="orgOrigin" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="yourName" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="yourName" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="yourRole" class="form-label">Your Role</label>
+                                <input type="text" class="form-control" id="yourRole" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="enquiry" class="form-label">Enquiry</label>
+                                <textarea class="form-control" id="enquiry" rows="3" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Edilite Tech. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            console.log({
+                orgName: document.getElementById('orgName').value,
+                orgOrigin: document.getElementById('orgOrigin').value,
+                yourName: document.getElementById('yourName').value,
+                yourRole: document.getElementById('yourRole').value,
+                enquiry: document.getElementById('enquiry').value
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+        </script>
+        
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
