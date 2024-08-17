@@ -232,6 +232,18 @@
                 yourRole: document.getElementById('yourRole').value,
                 enquiry: document.getElementById('enquiry').value
             });
+            const now = new Date();
+            const currentUTCDateTime = now.toISOString();
+            let _subject = "From Innov Tech on " + currentUTCDateTime 
+            var mailtoLink = 'mailto:calvin28joshua@gmail.com?subject=' + _subject   + '&body='  +
+                'Name: ' + document.getElementById('yourName').value + '%0A' +
+                'Role: ' + document.getElementById('yourRole').value + '%0A' +
+                'Organization: ' +  document.getElementById('orgName').value + '%0A' +
+                'Organization Country of Origin: ' + document.getElementById('orgOrigin').value + '%0A%0A' +
+                document.getElementById('enquiry').value;
+
+
+            window.location.href = mailtoLink;
         });
     </script>
     <script type="text/javascript">
